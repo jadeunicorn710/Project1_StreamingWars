@@ -1,0 +1,16 @@
+First you have to install node.js and then run these commands
+
+If you are getting an error for react-script: then delete package-lock.json and then do 'npm install'.
+
+Other errors might be because of Material UI libraries for like ui/core or ui/icons. Just do:
+'npm install @material-ui/icons --save'
+'npm install @material-ui/core --save'
+
+creating a new app:
+npx create-react-app {name of app here}
+cd {name of app}
+npm start
+
+Resuming an app:
+cd {name of app}
+npm start
