@@ -16,7 +16,7 @@ docker-compose -p gatech -f docker-compose.yml up -d
 
 Go to http://localhost:3001 to start exploring our web application as our demo video shows.
 
-[Demo here](https://www.dropbox.com/s/jwpy085aimzpx87/mts_video.mp4?dl=0).
+<!-- [Demo here](https://www.dropbox.com/s/jwpy085aimzpx87/mts_video.mp4?dl=0). -->
 
 ## 1. Backend
 
