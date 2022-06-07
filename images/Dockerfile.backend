@@ -17,4 +17,5 @@ EXPOSE 8080
 
 # CMD ["java", "-jar", "/streamingwars/streamingwars-0.0.1-SNAPSHOT.jar"]
 ENV SPRINGPROFILES=prod
+# CMD ["executable", "param1", "param2"…]
 CMD ["java", "-jar", "/streamingwars/streamingwars-0.0.1-SNAPSHOT.jar", "--spring.profiles.active=${SPRINGPROFILES}"]
